@@ -8,7 +8,7 @@ var store = {
       username: null,
       authenticated: false,
       avatar: null,
-      activeRoom: 'general',
+      activeRoom: 'gen',
       lastTyping: Date.now(),
       belowMessagesView: 'message-input',
       presentCount: 0
