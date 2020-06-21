@@ -18,10 +18,10 @@ var store = {
     activeMessages: [],
 
     messages: {
-      general: [],
-      ecs: [],
-      eks: [],
-      fargate: []
+      gen: [],
+      group1: [],
+      group2: [],
+      group3: []
     },
 
     typing: [],
