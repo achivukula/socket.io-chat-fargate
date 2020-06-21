@@ -112,7 +112,7 @@ io.on('connection', function(socket) {
 
     return callback(null, [
       {
-        id: 'general',
+        id: 'gen',
         name: 'HR',
         preview: 'Human Resources',
         image: '/images/aws.jpg',
@@ -120,7 +120,7 @@ io.on('connection', function(socket) {
         onlineCount: 0
       },
       {
-        id: 'fargate',
+        id: 'group1',
         name: 'T1',
         preview: 'Team One',
         image: '/images/fargate.png',
@@ -128,7 +128,7 @@ io.on('connection', function(socket) {
         onlineCount: 0
       },
       {
-        id: 'eks',
+        id: 'group2',
         name: 'T2',
         preview: 'Team Two',
         image: '/images/eks.png',
@@ -136,7 +136,7 @@ io.on('connection', function(socket) {
         onlineCount: 0
       },
       {
-        id: 'ecs',
+        id: 'group3',
         name: 'T3',
         preview: 'Team Three',
         image: '/images/ecs.png',
